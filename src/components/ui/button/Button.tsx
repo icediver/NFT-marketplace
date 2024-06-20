@@ -19,10 +19,10 @@ export function Button({
   return (
     <button
       className={clsx(
-        "flex items-center justify-center gap-3 py-5 rounded-[20px] w-full lg:w-[224px] h-[60px]",
+        "flex items-center justify-center gap-3 py-5 rounded-[20px] w-full lg:w-[224px] h-[60px] active:translate-y-1 transition-all",
         { ["bg-primary"]: variant === "filled" },
         {
-          ["outline-primary outline -outline-offset-4 [&>svg]:stroke-primary"]:
+          ["outline-primary outline outline-1 -outline-offset-4 [&>svg]:stroke-primary"]:
             variant === "outlined",
         },
 
