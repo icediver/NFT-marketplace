@@ -9,7 +9,7 @@ interface ITopRatedArtists {
 export function TopRatedArtists({ creators }: ITopRatedArtists) {
   return (
     <section className="section">
-      <div className="w-[315px] lg:w-[690px] lg:py-20 2xl:w-[1050px] mx-auto py-[40px] leading-snug flex flex-col">
+      <div className="adaptive-container leading-snug flex flex-col">
         <header className="lg:grid lg:grid-cols-2 lg:place-items-end 2xl:flex 2xl:justify-between 2xl:items-center mb-10 2xl:mb-[60px]">
           <div>
             <p className="2xl:text-2.25xl text-1.75xl 2xl:leading-tight font-semibold pb-1.5">

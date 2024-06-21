@@ -33,6 +33,15 @@ body {
   .section {
     @apply w-[375px] lg:w-[834px] lg:py-20 2xl:w-[1440px] mx-auto  py-[40px] leading-snug;
   }
+  .adaptive-container {
+    @apply w-[315px] lg:w-[690px] 2xl:w-[1050px] mx-auto;
+  }
+  .section-title {
+    @apply text-1.75xl leading-snug 2xl:text-2.5xl 2xl:leading-tight font-semibold;
+  }
+  h5 {
+    @apply text-1.25xl leading-snug  font-semibold;
+  }
 }
 
 /* @layer utilities { */

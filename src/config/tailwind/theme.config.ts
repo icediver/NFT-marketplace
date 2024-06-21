@@ -11,13 +11,13 @@ export const theme = {
   extend: {
     fontSize: {
       xss: "0.625rem",
-      xs: "0.7rem",
-      sm: "0.82rem",
+      xs: "0.75rem",
+      sm: "0.875rem",
       base: "1rem",
       md: "1.125rem",
       lg: "1.15rem",
       xl: "1.22rem",
-      "1.25xl": "1.36rem",
+      "1.25xl": "1.25rem",
       "1.5xl": "1.5rem",
       "1.75xl": "1.75rem",
       "2xl": "2rem",

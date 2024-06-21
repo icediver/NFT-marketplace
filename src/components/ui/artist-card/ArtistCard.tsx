@@ -2,8 +2,9 @@ import { IArtist } from "@/types/artist.interface";
 import clsx from "clsx";
 import { Avatar } from "./avatar/Avatar";
 import { Space_Mono } from "next/font/google";
+import { HTMLAttributes } from "react";
 
-interface IArtistCardProps {
+interface IArtistCardProps extends HTMLAttributes<HTMLDivElement> {
   artist: IArtist;
   variant?: "small" | "large" | "medium" | "default";
 }
@@ -13,10 +14,12 @@ const spaceMono = Space_Mono({ subsets: ["latin"], weight: "400" });
 export function ArtistCard({
   artist: { name, avatarPath, totalSales = 0, notificationCount = 0 },
   variant = "default",
+
+  className,
 }: IArtistCardProps) {
   return (
     <div
-      className={clsx("relative hidden", {
+      className={clsx("relative hidden", className, {
         ["!flex items-center gap-3"]: variant === "small",
         ["w-[315px] lg:w-[330px] h-[100px] 2xl:w-60 2xl:h-60 rounded-[20px] bg-background-secondary  2xl:flex-col justify-center items-center p-5 [&:nth-child(-n+5)]:flex lg:[&:nth-child(-n+6)]:!flex 2xl:flex"]:
           variant === "default",
