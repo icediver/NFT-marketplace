@@ -1,9 +1,13 @@
-import { trendingCollections } from "@/assets/temporary-data/trending-collection.data";
-import { CollectionCard } from "@/components/ui/collection-card/CollectionCard";
+import { CollectionCard } from "@/components/ui/cards/collection-card/CollectionCard";
+import { ITrendingCollectionItem } from "@/types/artist.interface";
 import { shuffleArray } from "@/utils/array.utils";
 
-export function TrendingCollection() {
-  const shuffledCollections = shuffleArray(trendingCollections);
+interface ITrendingCollection {
+  collection: ITrendingCollectionItem[];
+}
+
+export function TrendingCollection({ collection }: ITrendingCollection) {
+  const shuffledCollections = shuffleArray(collection);
   return (
     <section className="w-[375px] lg:w-[834px] lg:py-20 2xl:w-[1440px] mx-auto py-[40px] leading-snug">
       <div className="adaptive-container">

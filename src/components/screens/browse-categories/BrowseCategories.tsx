@@ -1,4 +1,4 @@
-import { CategoryCard } from "@/components/ui/category-card/CategoryCard";
+import { CategoryCard } from "@/components/ui/cards/category-card/CategoryCard";
 import { ICategory } from "@/types/categories.interface";
 
 interface IBrowseCategories {

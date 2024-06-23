@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button/Button";
 import { HighlightedNft } from "./highlighted-nft/HighlightedNft";
 
-import Icon from "@/assets/icons/RocketLaunch.svg";
 import { Statistics } from "@/components/ui/statistics/Statistics";
 
 export function HeroSection() {

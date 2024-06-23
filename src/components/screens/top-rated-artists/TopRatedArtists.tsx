@@ -1,4 +1,4 @@
-import { ArtistCard } from "@/components/ui/artist-card/ArtistCard";
+import { ArtistCard } from "@/components/ui/cards/artist-card/ArtistCard";
 import { Button } from "@/components/ui/button/Button";
 import { IArtist } from "@/types/artist.interface";
 

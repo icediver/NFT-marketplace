@@ -1,5 +1,5 @@
 import austronaut from "@/assets/images/astronaut.png";
-import { ArtistCard } from "@/components/ui/artist-card/ArtistCard";
+import { ArtistCard } from "@/components/ui/cards/artist-card/ArtistCard";
 import Image from "next/image";
 export function HighlightedNft() {
   return (

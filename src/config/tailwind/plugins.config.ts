@@ -73,11 +73,9 @@ export const plugins = [
           "-ms-overflow-style": "none" /* IE and Edge */,
           "scrollbar-width": "none" /* Firefox */,
         },
-        ".transparent-panel": {
-          "background-color": "rgba(9,10,10,0.15)",
-          // "background-color": "rgba(0,1,13,0.65)",
-          borderRadius: "0.75rem",
-          "backdrop-filter": "blur(20px)",
+        ".timer-panel": {
+          "background-color": "rgba(59, 59, 59, 0.5)",
+          "backdrop-filter": "blur(10%)",
         },
         ".container": {
           "@media (min-width: 1200px)": {

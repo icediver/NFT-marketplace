@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button/Button";
-import { NFTCard } from "@/components/ui/nft-card/NFTCard";
+import { NFTCard } from "@/components/ui/cards/nft-card/NFTCard";
 import { INFT } from "@/types/nft.interface";
 import Eye from "@/assets/icons/Eye.svg";
 
