@@ -6,16 +6,10 @@
 body {
   color: #fff;
   background: var(--main-background);
-  /* background: linear-gradient( */
-  /*     to bottom, */
-  /*     transparent, */
-  /*     rgb(var(--background-end-rgb)) */
-  /*   ) */
-  /*   rgb(var(--background-start-rgb)); */
 }
 
 @layer base {
-  .section {
+  section {
     @apply w-[375px] lg:w-[834px] lg:py-20 2xl:w-[1440px] mx-auto  py-[40px] leading-snug;
   }
   .adaptive-container {
@@ -24,13 +18,13 @@ body {
   .section-title {
     @apply text-1.75xl leading-snug 2xl:text-2.5xl 2xl:leading-tight font-semibold;
   }
+  .signup-input {
+    @apply w-[315px] lg:w-[325px] 2xl:w-[330px] h-[40px]   rounded-[20px] px-[20px] mb-[15px];
+  }
+  .artist-gradient {
+    @apply before:absolute before:inset-0 before:block before:bg-gradient-to-b before:from-[rgba(151,71,255,0)] before:to-[rgb(151,71,255)] before:content-[''];
+  }
   h5 {
     @apply text-1.25xl leading-snug  font-semibold;
   }
 }
-
-/* @layer utilities { */
-/*   .text-balance { */
-/*     text-wrap: balance; */
-/*   } */
-/* } */
