@@ -22,7 +22,11 @@ export function NFTHighlight({ timeExpires }: INFTHighlight) {
 							<ArtistCard
 								artist={{
 									name: 'Shroomie',
-									avatarPath: '/images/avatars/avatar-09.png',
+									slug: 'shroomie',
+									avatarPath: '/images/avatars/avatar-14.png',
+									created: [],
+									owned: [],
+									collection: [],
 								}}
 								variant="small"
 							/>
@@ -39,18 +43,6 @@ export function NFTHighlight({ timeExpires }: INFTHighlight) {
 						</div>
 					</div>
 				</div>
-				{/*
-        <Image
-          src="/images/highlight.png"
-          alt="highlight"
-          width={1440}
-          height={640}
-          // className="lg:bg-[80%]"
-          // sizes="(max-width:1440px) 100vw, 1440px, (max-width:834px) 75vw, 834px"
-          sizes="(max-width:834px) 50%"
-          style={{ width: "auto", height: "100%", objectFit: "cover" }}
-        />
-*/}
 			</div>
 		</section>
 	);

@@ -11,6 +11,9 @@ export const nfts: INFT[] = [
 			name: 'MoonDancer',
 			avatarPath: '/images/avatars/avatar-01.png',
 			slug: 'moon-dancer',
+			created: [],
+			owned: [],
+			collection: [],
 		},
 	},
 	{
@@ -23,6 +26,9 @@ export const nfts: INFT[] = [
 			name: 'NebulaKid',
 			avatarPath: '/images/avatars/avatar-03.png',
 			slug: 'nebula-kid',
+			created: [],
+			owned: [],
+			collection: [],
 		},
 	},
 	{
@@ -35,6 +41,9 @@ export const nfts: INFT[] = [
 			name: 'SpaceOne',
 			avatarPath: '/images/avatars/avatar-05.png',
 			slug: 'space-one',
+			created: [],
+			owned: [],
+			collection: [],
 		},
 	},
 ];

@@ -11,6 +11,9 @@ export const artistNfts: INFT[] = [
 			name: 'animakid',
 			avatarPath: '/images/avatars/avatar-10.png',
 			slug: 'animakid',
+			created: [],
+			owned: [],
+			collection: [],
 		},
 	},
 
@@ -24,6 +27,9 @@ export const artistNfts: INFT[] = [
 			name: 'animakid',
 			avatarPath: '/images/avatars/avatar-10.png',
 			slug: 'animakid',
+			created: [],
+			owned: [],
+			collection: [],
 		},
 	},
 
@@ -37,6 +43,9 @@ export const artistNfts: INFT[] = [
 			name: 'animakid',
 			avatarPath: '/images/avatars/avatar-10.png',
 			slug: 'animakid',
+			created: [],
+			owned: [],
+			collection: [],
 		},
 	},
 
@@ -50,6 +59,9 @@ export const artistNfts: INFT[] = [
 			name: 'animakid',
 			avatarPath: '/images/avatars/avatar-10.png',
 			slug: 'animakid',
+			created: [],
+			owned: [],
+			collection: [],
 		},
 	},
 
@@ -63,6 +75,9 @@ export const artistNfts: INFT[] = [
 			name: 'animakid',
 			avatarPath: '/images/avatars/avatar-10.png',
 			slug: 'animakid',
+			created: [],
+			owned: [],
+			collection: [],
 		},
 	},
 	{
@@ -75,6 +90,9 @@ export const artistNfts: INFT[] = [
 			name: 'animakid',
 			avatarPath: '/images/avatars/avatar-10.png',
 			slug: 'animakid',
+			created: [],
+			owned: [],
+			collection: [],
 		},
 	},
 	{
@@ -87,6 +105,9 @@ export const artistNfts: INFT[] = [
 			name: 'animakid',
 			avatarPath: '/images/avatars/avatar-10.png',
 			slug: 'animakid',
+			created: [],
+			owned: [],
+			collection: [],
 		},
 	},
 	{
@@ -99,6 +120,9 @@ export const artistNfts: INFT[] = [
 			name: 'animakid',
 			avatarPath: '/images/avatars/avatar-10.png',
 			slug: 'animakid',
+			created: [],
+			owned: [],
+			collection: [],
 		},
 	},
 	{
@@ -111,6 +135,9 @@ export const artistNfts: INFT[] = [
 			name: 'animakid',
 			avatarPath: '/images/avatars/avatar-10.png',
 			slug: 'animakid',
+			created: [],
+			owned: [],
+			collection: [],
 		},
 	},
 ];
