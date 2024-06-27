@@ -17,8 +17,8 @@ export interface IPageSlugParam {
 }
 
 export async function generateStaticParams() {
-	const paths = creators.map((course) => ({
-		slug: course.slug,
+	const paths = creators.map((artist) => ({
+		slug: artist.slug,
 	}));
 
 	return paths;

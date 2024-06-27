@@ -22,7 +22,9 @@ export function ArtistPage({ artist }: IArtistPage) {
 			<header>
 				<div className="artist-gradient relative mx-auto h-[250px] w-[375xp] overflow-hidden lg:h-[280px] lg:w-[834px] 2xl:h-[320px] 2xl:w-[1280px]">
 					<Image
-						src={artist.wallpaper || ''}
+						src={
+							artist.wallpaper || '/images/artist-page/artist-wallpaper-01.png'
+						}
 						alt={artist.name}
 						width={1280}
 						height={320}

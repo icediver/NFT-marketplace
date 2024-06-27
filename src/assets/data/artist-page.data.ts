@@ -15,6 +15,21 @@ export const artistNfts: INFT[] = [
 			owned: [],
 			collection: [],
 		},
+		slug: 'distant-galaxy',
+		minted: '2022-07-01T12:00:00.000Z',
+		description:
+			'The Orbitians a collection of 10,000 unique NFTs on the Ethereum blockchain.' +
+			' There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians.' +
+			' They live in a metal space machines, high up in the sky and only have one foot on Earth. ' +
+			'These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. ' +
+			'The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. ' +
+			'Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, ' +
+			'so they&apos;ve taken to make human beings their target.',
+		etherscanLink:
+			'https://etherscan.io/token/0x9b5b8b1f8b0c8f6f5b7f2ba5a6e9b0a6f2b0f2b0c',
+		originalLink: 'https://orbitians.io/',
+		auctionEnds: '2024-07-01T12:00:00.000Z',
+		tags: ['animation', 'illustration', 'moon', 'moon'],
 	},
 
 	{
@@ -31,6 +46,21 @@ export const artistNfts: INFT[] = [
 			owned: [],
 			collection: [],
 		},
+		slug: 'life-on-edena',
+		minted: '2024-03-01T12:00:00.000Z',
+		description:
+			'The Orbitians a collection of 10,000 unique NFTs on the Ethereum blockchain.' +
+			' There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians.' +
+			' They live in a metal space machines, high up in the sky and only have one foot on Earth. ' +
+			'These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. ' +
+			'The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. ' +
+			'Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, ' +
+			'so they&apos;ve taken to make human beings their target.',
+		etherscanLink:
+			'https://etherscan.io/token/0x9b5b8b1f8b0c8f6f5b7f2ba5a6e9b0a6f2b0f2b0c',
+		originalLink: 'https://orbitians.io/',
+		auctionEnds: '2024-07-01T12:00:00.000Z',
+		tags: ['animation', 'illustration', 'moon', 'moon'],
 	},
 
 	{
@@ -47,6 +77,21 @@ export const artistNfts: INFT[] = [
 			owned: [],
 			collection: [],
 		},
+		slug: 'astrofiction',
+		minted: '2022-07-01T12:00:00.000Z',
+		description:
+			'The Orbitians a collection of 10,000 unique NFTs on the Ethereum blockchain.' +
+			' There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians.' +
+			' They live in a metal space machines, high up in the sky and only have one foot on Earth. ' +
+			'These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. ' +
+			'The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. ' +
+			'Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, ' +
+			'so they&apos;ve taken to make human beings their target.',
+		etherscanLink:
+			'https://etherscan.io/token/0x9b5b8b1f8b0c8f6f5b7f2ba5a6e9b0a6f2b0f2b0c',
+		originalLink: 'https://orbitians.io/',
+		auctionEnds: '2024-07-01T12:00:00.000Z',
+		tags: ['animation', 'illustration', 'moon', 'moon'],
 	},
 
 	{
@@ -63,6 +108,21 @@ export const artistNfts: INFT[] = [
 			owned: [],
 			collection: [],
 		},
+		slug: 'cryptocity',
+		minted: '2022-07-01T12:00:00.000Z',
+		description:
+			'The Orbitians a collection of 10,000 unique NFTs on the Ethereum blockchain.' +
+			' There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians.' +
+			' They live in a metal space machines, high up in the sky and only have one foot on Earth. ' +
+			'These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. ' +
+			'The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. ' +
+			'Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, ' +
+			'so they&apos;ve taken to make human beings their target.',
+		etherscanLink:
+			'https://etherscan.io/token/0x9b5b8b1f8b0c8f6f5b7f2ba5a6e9b0a6f2b0f2b0c',
+		originalLink: 'https://orbitians.io/',
+		auctionEnds: '2024-07-01T12:00:00.000Z',
+		tags: ['animation', 'illustration', 'moon', 'moon'],
 	},
 
 	{
@@ -79,6 +139,21 @@ export const artistNfts: INFT[] = [
 			owned: [],
 			collection: [],
 		},
+		slug: 'colorfull-dog',
+		minted: '2022-07-01T12:00:00.000Z',
+		description:
+			'The Orbitians a collection of 10,000 unique NFTs on the Ethereum blockchain.' +
+			' There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians.' +
+			' They live in a metal space machines, high up in the sky and only have one foot on Earth. ' +
+			'These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. ' +
+			'The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. ' +
+			'Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, ' +
+			'so they&apos;ve taken to make human beings their target.',
+		etherscanLink:
+			'https://etherscan.io/token/0x9b5b8b1f8b0c8f6f5b7f2ba5a6e9b0a6f2b0f2b0c',
+		originalLink: 'https://orbitians.io/',
+		auctionEnds: '2024-07-01T12:00:00.000Z',
+		tags: ['animation', 'illustration', 'moon', 'moon'],
 	},
 	{
 		name: 'Space Tales',
@@ -94,6 +169,21 @@ export const artistNfts: INFT[] = [
 			owned: [],
 			collection: [],
 		},
+		slug: 'space-tales',
+		minted: '2022-07-01T12:00:00.000Z',
+		description:
+			'The Orbitians a collection of 10,000 unique NFTs on the Ethereum blockchain.' +
+			' There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians.' +
+			' They live in a metal space machines, high up in the sky and only have one foot on Earth. ' +
+			'These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. ' +
+			'The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. ' +
+			'Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, ' +
+			'so they&apos;ve taken to make human beings their target.',
+		etherscanLink:
+			'https://etherscan.io/token/0x9b5b8b1f8b0c8f6f5b7f2ba5a6e9b0a6f2b0f2b0c',
+		originalLink: 'https://orbitians.io/',
+		auctionEnds: '2024-07-01T12:00:00.000Z',
+		tags: ['animation', 'illustration', 'moon', 'moon'],
 	},
 	{
 		name: 'Chery Blossom Girl 037',
@@ -109,6 +199,21 @@ export const artistNfts: INFT[] = [
 			owned: [],
 			collection: [],
 		},
+		slug: 'chery-blossom-girl',
+		minted: '2022-07-01T12:00:00.000Z',
+		description:
+			'The Orbitians a collection of 10,000 unique NFTs on the Ethereum blockchain.' +
+			' There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians.' +
+			' They live in a metal space machines, high up in the sky and only have one foot on Earth. ' +
+			'These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. ' +
+			'The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. ' +
+			'Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, ' +
+			'so they&apos;ve taken to make human beings their target.',
+		etherscanLink:
+			'https://etherscan.io/token/0x9b5b8b1f8b0c8f6f5b7f2ba5a6e9b0a6f2b0f2b0c',
+		originalLink: 'https://orbitians.io/',
+		auctionEnds: '2024-07-01T12:00:00.000Z',
+		tags: ['animation', 'illustration', 'moon', 'moon'],
 	},
 	{
 		name: 'Dancing Robots 0987',
@@ -124,6 +229,21 @@ export const artistNfts: INFT[] = [
 			owned: [],
 			collection: [],
 		},
+		slug: 'dancing-robots',
+		minted: '2022-07-01T12:00:00.000Z',
+		description:
+			'The Orbitians a collection of 10,000 unique NFTs on the Ethereum blockchain.' +
+			' There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians.' +
+			' They live in a metal space machines, high up in the sky and only have one foot on Earth. ' +
+			'These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. ' +
+			'The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. ' +
+			'Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, ' +
+			'so they&apos;ve taken to make human beings their target.',
+		etherscanLink:
+			'https://etherscan.io/token/0x9b5b8b1f8b0c8f6f5b7f2ba5a6e9b0a6f2b0f2b0c',
+		originalLink: 'https://orbitians.io/',
+		auctionEnds: '2024-07-01T12:00:00.000Z',
+		tags: ['animation', 'illustration', 'moon', 'moon'],
 	},
 	{
 		name: 'IceCream Ape',
@@ -139,5 +259,20 @@ export const artistNfts: INFT[] = [
 			owned: [],
 			collection: [],
 		},
+		slug: 'icecream-ape',
+		minted: '2022-07-01T12:00:00.000Z',
+		description:
+			'The Orbitians a collection of 10,000 unique NFTs on the Ethereum blockchain.' +
+			' There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians.' +
+			' They live in a metal space machines, high up in the sky and only have one foot on Earth. ' +
+			'These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. ' +
+			'The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. ' +
+			'Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, ' +
+			'so they&apos;ve taken to make human beings their target.',
+		etherscanLink:
+			'https://etherscan.io/token/0x9b5b8b1f8b0c8f6f5b7f2ba5a6e9b0a6f2b0f2b0c',
+		originalLink: 'https://orbitians.io/',
+		auctionEnds: '2024-07-01T12:00:00.000Z',
+		tags: ['animation', 'illustration', 'moon', 'moon'],
 	},
 ];

@@ -1,10 +1,16 @@
 import { INFT } from '@/types/nft.interface';
 import Image from 'next/image';
-import { ArtistCard } from '../artist-card/ArtistCard';
 import { Space_Mono } from 'next/font/google';
 import clsx from 'clsx';
+import Link from 'next/link';
+import dynamic from 'next/dynamic';
+import { useState } from 'react';
 
 const spaceMono = Space_Mono({ subsets: ['latin'], weight: ['400', '700'] });
+
+const DynamicArtistCard = dynamic(() => import('../artist-card/ArtistCard'), {
+	ssr: false,
+});
 
 interface INFTCard {
 	nft: INFT;
@@ -13,9 +19,10 @@ interface INFTCard {
 
 export function NFTCard({ nft, variant = 'light' }: INFTCard) {
 	return (
-		<div
+		<Link
+			href={`/nft/${nft.slug}`}
 			className={clsx(
-				'h-[402px] w-[315px] overflow-hidden rounded-[20px] lg:h-[469px] lg:w-[330px]',
+				'h-[402px] w-[315px] animate-scaleIn overflow-hidden rounded-[20px] lg:h-[469px] lg:w-[330px]',
 				variant === 'light' ? 'bg-background-secondary' : 'bg-main-background'
 			)}
 		>
@@ -24,7 +31,7 @@ export function NFTCard({ nft, variant = 'light' }: INFTCard) {
 			</div>
 			<footer className="p-5">
 				<h5>{nft.name}</h5>
-				<ArtistCard
+				<DynamicArtistCard
 					artist={nft.artist}
 					variant="small"
 					className="mb-[25px] mt-1.5"
@@ -46,6 +53,6 @@ export function NFTCard({ nft, variant = 'light' }: INFTCard) {
 					</div>
 				</div>
 			</footer>
-		</div>
+		</Link>
 	);
 }

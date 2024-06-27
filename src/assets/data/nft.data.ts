@@ -15,6 +15,7 @@ export const nfts: INFT[] = [
 			owned: [],
 			collection: [],
 		},
+		slug: 'distant-galaxy',
 	},
 	{
 		name: 'Life On Edena',
@@ -30,7 +31,9 @@ export const nfts: INFT[] = [
 			owned: [],
 			collection: [],
 		},
+		slug: 'life-on-edena',
 	},
+
 	{
 		name: 'AstroFiction',
 		image: '/images/nfts/nft-03.png',
@@ -45,5 +48,6 @@ export const nfts: INFT[] = [
 			owned: [],
 			collection: [],
 		},
+		slug: 'astrofiction',
 	},
 ];

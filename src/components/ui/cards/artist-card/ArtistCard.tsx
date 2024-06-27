@@ -2,22 +2,21 @@ import { IArtist } from '@/types/artist.interface';
 import clsx from 'clsx';
 import { Avatar } from './avatar/Avatar';
 import { Space_Mono } from 'next/font/google';
-import { HTMLAttributes } from 'react';
 import Link from 'next/link';
 
-interface IArtistCardProps extends HTMLAttributes<HTMLDivElement> {
+type ArtistCardType = React.ComponentPropsWithoutRef<typeof Link> & {
 	artist: IArtist;
-	variant?: 'small' | 'large' | 'medium' | 'default';
-}
+	variant?: 'small' | 'default';
+};
 
 const spaceMono = Space_Mono({ subsets: ['latin'], weight: '400' });
 
-export function ArtistCard({
+export default function ArtistCard({
 	artist: { name, avatarPath, totalSales = 0, notificationCount = 0, slug },
 	variant = 'default',
 
 	className,
-}: IArtistCardProps) {
+}: Omit<ArtistCardType, 'href'>) {
 	return (
 		<Link
 			href={`/artist/${slug}`}

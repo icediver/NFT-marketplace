@@ -4,6 +4,7 @@ import { IArtist } from '@/types/artist.interface';
 import clsx from 'clsx';
 import { Space_Mono } from 'next/font/google';
 import { useState } from 'react';
+import { NFTGalery } from '../nft-galery/NFTGalery';
 
 const spaceMono = Space_Mono({ subsets: ['latin'], weight: ['400', '700'] });
 
@@ -48,22 +49,9 @@ export function NftsTabs({ artist }: INftsTabs) {
 					))}
 				</div>
 			</header>
-			<div className="adaptive-container py-20">
-				<div className="grid gap-[30px] lg:grid-cols-2 2xl:grid-cols-3">
-					{activeTab === 'created' &&
-						artist.created.map((nft) => (
-							<NFTCard key={nft.id} nft={nft} variant="dark" />
-						))}
-					{activeTab === 'owned' &&
-						artist.owned.map((nft) => (
-							<NFTCard key={nft.id} nft={nft} variant="dark" />
-						))}
-					{activeTab === 'collection' &&
-						artist.collection.map((nft) => (
-							<NFTCard key={nft.id} nft={nft} variant="dark" />
-						))}
-				</div>
-			</div>
+			{activeTab === 'created' && <NFTGalery nfts={artist.created} />}
+			{activeTab === 'owned' && <NFTGalery nfts={artist.owned} />}
+			{activeTab === 'collection' && <NFTGalery nfts={artist.collection} />}
 		</section>
 	);
 }

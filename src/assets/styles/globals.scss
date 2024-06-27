@@ -10,7 +10,7 @@ body {
 
 @layer base {
   section {
-    @apply w-[375px] lg:w-[834px] lg:py-20 2xl:w-[1440px] mx-auto  py-[40px] leading-snug;
+    @apply animate-opacity w-[375px] lg:w-[834px] lg:py-20 2xl:w-[1440px] mx-auto  py-[40px] leading-snug;
   }
   .adaptive-container {
     @apply w-[315px] lg:w-[690px] 2xl:w-[1050px] mx-auto;
