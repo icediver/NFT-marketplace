@@ -2,19 +2,12 @@ import ArtistCard from '@/components/ui/cards/artist-card/ArtistCard';
 import { Button } from '@/components/ui/button/Button';
 import Eye from '@/assets/icons/Eye.svg';
 import dynamic from 'next/dynamic';
+import { timeExpires } from '@/utils/time-expires.utils';
 
 const Timer = dynamic(
 	() => import('@/components/ui/auction-timer/AuctionTimer'),
 	{ ssr: false }
 );
-
-function timeExpires() {
-	const date = new Date();
-	date.setHours(date.getHours() - 28);
-	console.log(date);
-
-	return date.toLocaleString();
-}
 
 export function NFTHighlight() {
 	return (
@@ -49,6 +42,9 @@ export function NFTHighlight() {
 							className="order-last lg:col-start-1 lg:row-start-3 lg:self-end"
 						/>
 						<div className="row-span-2 mb-[30px] lg:col-start-2 lg:row-start-2 lg:mb-0 lg:place-self-end">
+							{
+								//Todo: fix timeExpires
+							}
 							<Timer timeExpires={timeExpires()} />
 						</div>
 					</div>

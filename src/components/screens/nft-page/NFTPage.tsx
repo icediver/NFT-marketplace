@@ -8,6 +8,7 @@ import Image from 'next/image';
 import Globe from '@/assets/icons/Globe.svg';
 import Link from 'next/link';
 import { NFTGalery } from '@/components/ui/nft-galery/NFTGalery';
+import { timeExpires } from '@/utils/time-expires.utils';
 
 const spaceMono = Space_Mono({ subsets: ['latin'], weight: ['400', '700'] });
 
@@ -46,7 +47,9 @@ export function NFTPage({ nft }: INFTPage) {
 					{nft.auctionEnds && (
 						<AuctionTimer
 							className="my-5 lg:my-0"
-							timeExpires={nft.auctionEnds}
+							// timeExpires={nft.auctionEnds}
+							// Todo: fix timeExpires
+							timeExpires={timeExpires()}
 						>
 							<Button title="Place Bid" className="mt-[30px]" />
 						</AuctionTimer>
