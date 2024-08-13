@@ -1,6 +1,6 @@
-import { IRankings } from '@/types/ranking.interface';
+import { IRankingItem } from '@/types/ranking.interface';
 
-export const rankings: IRankings[] = [
+export const rankings: IRankingItem[] = [
 	{
 		id: 1,
 		name: 'Jaydon Ekstrom',

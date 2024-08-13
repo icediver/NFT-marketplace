@@ -21,7 +21,7 @@ export default function Home() {
 			<TopRatedArtists creators={creators} />
 			<BrowseCategories categories={categories} />
 			<DiscoverNFTs nfts={nfts} />
-			<NFTHighlight timeExpires={'2024-06-27 00:00:00'} />
+			<NFTHighlight />
 			<HowItWorks cards={howItWorks} />
 			<Subscribe />
 		</main>

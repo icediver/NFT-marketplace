@@ -16,6 +16,8 @@ export const nfts: INFT[] = [
 			collection: [],
 		},
 		slug: 'distant-galaxy',
+		minted: '2022-07-01T12:00:00.000Z',
+		description: '',
 	},
 	{
 		name: 'Life On Edena',
@@ -32,6 +34,8 @@ export const nfts: INFT[] = [
 			collection: [],
 		},
 		slug: 'life-on-edena',
+		minted: '2022-07-01T12:00:00.000Z',
+		description: '',
 	},
 
 	{
@@ -48,6 +52,8 @@ export const nfts: INFT[] = [
 			owned: [],
 			collection: [],
 		},
+		minted: '2022-07-01T12:00:00.000Z',
+		description: 'astrofiction',
 		slug: 'astrofiction',
 	},
 ];

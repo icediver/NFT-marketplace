@@ -19,10 +19,9 @@ interface INFTCard {
 
 export function NFTCard({ nft, variant = 'light' }: INFTCard) {
 	return (
-		<Link
-			href={`/nft/${nft.slug}`}
+		<div
 			className={clsx(
-				'h-[402px] w-[315px] animate-scaleIn overflow-hidden rounded-[20px] lg:h-[469px] lg:w-[330px]',
+				'group relative h-[402px] w-[315px] animate-scaleIn overflow-hidden rounded-[20px] transition-transform duration-300 hover:scale-105 lg:h-[469px] lg:w-[330px]',
 				variant === 'light' ? 'bg-background-secondary' : 'bg-main-background'
 			)}
 		>
@@ -53,6 +52,11 @@ export function NFTCard({ nft, variant = 'light' }: INFTCard) {
 					</div>
 				</div>
 			</footer>
-		</Link>
+
+			<Link
+				href={`/nft/${nft.slug}`}
+				className="absolute left-0 top-0 hidden h-full w-full bg-slate-900/30 group-hover:block"
+			></Link>
+		</div>
 	);
 }

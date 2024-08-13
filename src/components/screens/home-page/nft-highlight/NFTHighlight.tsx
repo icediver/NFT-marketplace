@@ -8,11 +8,15 @@ const Timer = dynamic(
 	{ ssr: false }
 );
 
-interface INFTHighlight {
-	timeExpires: string;
+function timeExpires() {
+	const date = new Date();
+	date.setHours(date.getHours() - 28);
+	console.log(date);
+
+	return date.toLocaleString();
 }
 
-export function NFTHighlight({ timeExpires }: INFTHighlight) {
+export function NFTHighlight() {
 	return (
 		<section className="py-0">
 			<div className="mx-auto overflow-hidden lg:h-[630px] lg:w-[834px] 2xl:h-[640px] 2xl:w-[1440px]">
@@ -45,7 +49,7 @@ export function NFTHighlight({ timeExpires }: INFTHighlight) {
 							className="order-last lg:col-start-1 lg:row-start-3 lg:self-end"
 						/>
 						<div className="row-span-2 mb-[30px] lg:col-start-2 lg:row-start-2 lg:mb-0 lg:place-self-end">
-							<Timer timeExpires={timeExpires} />
+							<Timer timeExpires={timeExpires()} />
 						</div>
 					</div>
 				</div>

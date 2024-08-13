@@ -17,7 +17,6 @@ export function RankingTabs({
 	variant = 'withoutCount',
 }: ITabs) {
 	const [activeTab, setActiveTab] = useState(0);
-	console.log(rankings);
 
 	return (
 		<div>

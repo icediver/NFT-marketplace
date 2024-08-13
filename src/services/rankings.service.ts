@@ -18,8 +18,6 @@ export const RankingsService = {
 			throw new Error('Artist not found');
 		}
 
-		console.log('response', response);
-
 		return response;
 	},
 };
