@@ -2,10 +2,10 @@
 const nextConfig = {
 	pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
 	images: {
-		domains: ['localhost', 'vercel.com', 'images.unsplash.com'],
+		domains: ['localhost', 'vercel.com', 'images.unsplash.com', 'github.io'],
 	},
 	webpack(config) {
-		//config.resolve.alias['@'] = path.resolve(__dirname, '../src'); 
+		//config.resolve.alias['@'] = path.resolve(__dirname, '../src');
 		config.module.rules.push({
 			test: /\.svg$/i,
 			// issuer: /\.[jt]sx?$/,
