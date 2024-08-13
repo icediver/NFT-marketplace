@@ -2,7 +2,7 @@
 const nextConfig = {
 	pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
 	images: {
-		domains: ['localhost'],
+		domains: ['localhost', 'vercel.com', 'images.unsplash.com'],
 	},
 	webpack(config) {
 		config.module.rules.push({
