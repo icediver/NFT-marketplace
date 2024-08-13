@@ -5,6 +5,10 @@ const nextConfig = {
 		domains: ['localhost', 'vercel.com', 'images.unsplash.com'],
 	},
 	webpack(config) {
+		config.resolve.alias = {
+			...config.resolve.alias,
+			'@': ['./src'],
+		};
 		config.module.rules.push({
 			test: /\.svg$/i,
 			// issuer: /\.[jt]sx?$/,
@@ -13,8 +17,6 @@ const nextConfig = {
 
 		return config;
 	},
-	output: 'export',
-	basePath: '/NFT-marketplace-frontend',
 };
 
 export default nextConfig;
