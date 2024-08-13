@@ -5,7 +5,7 @@ const nextConfig = {
 		domains: ['localhost', 'vercel.com', 'images.unsplash.com'],
 	},
 	webpack(config) {
-		config.resolve.alias['@'] = path.resolve(__dirname, '../src');
+		//config.resolve.alias['@'] = path.resolve(__dirname, '../src'); 
 		config.module.rules.push({
 			test: /\.svg$/i,
 			// issuer: /\.[jt]sx?$/,
