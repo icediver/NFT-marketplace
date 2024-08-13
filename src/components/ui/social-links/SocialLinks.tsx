@@ -1,8 +1,8 @@
-import Discord from '@/assets/icons/DiscordLogo.svg';
-import YouTube from '@/assets/icons/YouTubeLogo.svg';
-import Twitter from '@/assets/icons/TwitterLogo.svg';
-import Instagram from '@/assets/icons/InstagramLogo.svg';
-import Website from '@/assets/icons/Globe.svg';
+import Discord from '../../../assets/icons/DiscordLogo.svg';
+import YouTube from '../../../assets/icons/YouTubeLogo.svg';
+import Twitter from '../../../assets/icons/TwitterLogo.svg';
+import Instagram from '../../../assets/icons/InstagramLogo.svg';
+import Website from '../../../assets/icons/Globe.svg';
 import Link from 'next/link';
 import { ReactElement } from 'react';
 import clsx from 'clsx';
